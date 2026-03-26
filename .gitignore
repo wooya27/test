@@ -1,0 +1,46 @@
+# ============================
+#  절대 GitHub에 올리면 안 되는 파일
+# ============================
+
+# API 키 / 환경변수
+.env
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 로그
+logs/
+*.log
+
+# 사진 파일 (용량 큼)
+input_folder/
+processed_folder/
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+
+# OS 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 빌드 결과물
+dist/
+build/
+*.egg-info/
